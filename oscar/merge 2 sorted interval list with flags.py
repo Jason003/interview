@@ -8,7 +8,6 @@ class Interval(object):
     def __str__(self):
         return str(self.start) + ',' + str(self.end) + ',' + str(self.flag)
 
-
 class Solution:
     """
     @param list1: one of the given list
@@ -33,7 +32,7 @@ class Solution:
             self.push_back(intervals, list2[j])
             j += 1
 
-        return intervals
+        return [i for i in intervals if i.start != i.end]
 
     def push_back(self, intervals, interval):
         if not intervals:
@@ -46,20 +45,17 @@ class Solution:
             return
 
         if last_interval.end <= interval.end:
-            if intervals[-1].start < interval.start:
-                intervals[-1].end = interval.start
-            else:
-                intervals.pop()
-            if interval.start < last_interval.end:
-                intervals.append(Interval(interval.start, last_interval.end, interval.flag and last_interval.flag))
-            if last_interval.end != interval.end:
-                intervals.append(Interval(last_interval.end, interval.end, interval.flag))
+            intervals[-1].end = interval.start
+            intervals.append(Interval(interval.start, last_interval.end, interval.flag and last_interval.flag))
+            intervals.append(Interval(last_interval.end, interval.end, interval.flag))
         else:
             intervals[-1].end = interval.start
+            interval.flag = last_interval.flag and interval.flag
             intervals.append(interval)
-            intervals[-1].flag = last_interval.flag and interval.flag
             intervals.append(Interval(interval.end, last_interval.end, last_interval.flag))
 
 sol = Solution()
-for i in sol.mergeTwoInterval([Interval(2,5,True)], [Interval(1, 4, False), Interval(4, 8, True)]):
+for i in sol.mergeTwoInterval([Interval(-float('inf'), 2, False), Interval(2,5,True), Interval(5,10,True), Interval(10,float('inf'),False)], [Interval(-float('inf'), 4, True), Interval(4, float('inf'), True)]):
+    print(i)
+for i in sol.mergeTwoInterval([Interval(-float('inf'), 45, True), Interval(45,89,False), Interval(89,float('inf'),False)], [Interval(-float('inf'), 67, True), Interval(67, float('inf'), False)]):
     print(i)

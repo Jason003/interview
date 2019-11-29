@@ -3,6 +3,9 @@ class SlidingPuzzle:
     def __init__(self):
         self.dir = ((1, 0), (-1, 0), (0, 1), (0, -1))
 
+    def _print(self, board):
+        for r in board:
+            print(r)
 
     def _valid(self, x, y, m, n):
         return 0 <= x < m and 0 <= y < n

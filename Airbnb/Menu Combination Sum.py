@@ -27,7 +27,7 @@ def MenuCombinationSum2(prices, target):  # one dish can't be used for more than
             return
         for i in range(idx, len(prices)):
             if i > idx and prices[i] == prices[i - 1]: continue
-            dfs(i + 1, curr + [prices[i]], summ + prices[i])  # one dish can be used more than one time
+            dfs(i + 1, curr + [prices[i]], summ + prices[i])  # one dish can't be used more than one time
 
     dfs(0, [], 0)
     return res

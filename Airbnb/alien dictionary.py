@@ -19,19 +19,17 @@ class Solution0:
                     is_pre[a[j]].add(b[j])
                     break
         letters = set(list(''.join(words)))
-        cur = [c for c in letters if not pre[c]]
-        while len(cur) != len(letters):
-            nxt = cur[:]
-            for c in cur:
-                for after in is_pre[c]:
-                    if c in pre[after]:
-                        pre[after].remove(c)
-                        if not pre[after]:
-                            nxt.append(after)
-            if nxt == cur:
-                return ''
-            cur = nxt
-        return ''.join(cur)
+        dq = collections.deque([c for c in letters if not pre[c]])
+        res = []
+        while dq:
+            cur = dq.popleft()
+            res.append(cur)
+            for after in is_pre[cur]:
+                pre[after].remove(cur)
+                if not pre[after]:
+                    dq.append(after)
+        return ''.join(res) if len(res) == len(letters) else ''
+print(Solution0().alienOrder(["a","b","ca","cc",'cfd']))
 
 def alienOrder_all(words):
     # time: O(V! + E) space: O(V + E)
@@ -66,7 +64,7 @@ def alienOrder_all(words):
     for i in letters:
         dfs([], set(), i)
     return [''.join(s) for s in res]
-print(alienOrder_all(["a","b","ca","cc",'cfd']))
+# print(alienOrder_all(["a","b","ca","cc",'cfd']))
 
 
 # DFS solution.
@@ -100,7 +98,7 @@ class Solution2(object):
             if not valid(set(), p):
                 return ''
         return ''.join(res[::-1])
-print(Solution2().alienOrder(["a","b","ca","cc"]))
+# print(Solution2().alienOrder(["a","b","ca","cc"]))
 
 # a: b, c
 # b: c

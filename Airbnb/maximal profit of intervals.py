@@ -59,6 +59,7 @@ def jobScheduling2(startTime, endTime, profit):
     final_index = -1
     for i in range(n):
         for j in range(i):
+            # find the largest end time that is less than s
             if event[j][1] <= event[i][0] and dp[j] + event[i][2] > dp[i]:
                 dp[i] = dp[j] + event[i][2]
                 path[event[i][-1]] = event[j][-1]

@@ -59,14 +59,13 @@ def pourWater1(A, V, K):
         for j in range(n):
             for i in range(A[j]):
                 res[-i-1][j] = 'w'
-        for j in range(K - preK, K - preK + len(tep)):
-            for i in range(tep[j - K + preK]):
-                res[-i-1][j] = '#'
+            for i in range(tep[j]):
+                res[-i - 1][j] = '#'
 
         for row in res:
             print(''.join(row))
         print('============')
-    preK = K
+
     tep = A[:]
     printWater()
     for _ in range(V):
@@ -103,14 +102,12 @@ def pourWater2(A, V, K):
         for j in range(n):
             for i in range(A[j]):
                 res[-i-1][j] = 'w'
-        for j in range(K - preK, K - preK + len(tep)):
-            for i in range(tep[j - K + preK]):
-                res[-i-1][j] = '#'
+            for i in range(tep[j]):
+                res[-i - 1][j] = '#'
 
         for row in res:
             print(''.join(row))
         print('============')
-    preK = K
     tep = A[:]
     printWater()
     for _ in range(V):
@@ -151,9 +148,8 @@ def pourWater4(A, V, K): # no walls
         for j in range(n):
             for i in range(A[j]):
                 res[-i-1][j] = 'w'
-        for j in range(K - preK, K - preK + len(tep)):
-            for i in range(tep[j - K + preK]):
-                res[-i-1][j] = '#'
+            for i in range(tep[j]):
+                res[-i - 1][j] = '#'
 
         for row in res:
             print(''.join(row))

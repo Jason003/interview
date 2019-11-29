@@ -1,34 +1,54 @@
 import collections
 import heapq
-
+import copy
 
 class Solution:
-    def findCheapestPrice(self, flights, src, dst, K):
-        '''
-        no cycle detection, because we can only move K steps, there will not be a circle problem
-        '''
-        graph = collections.defaultdict(dict)
-        for s, e, cost in flights:
-            graph[s][e] = cost
-        heap = [(0, src, K + 1)]
-        while heap:
-            cost, curr, stops = heapq.heappop(heap)
-            if curr == dst:
-                return cost
-            if stops:
-                for nxt, price in graph[curr].items():
-                    heapq.heappush(heap, (cost + price, nxt, stops - 1))
-        return -1
-
-    def findCheapestPrice_bellman(self, flights, src, dst, K, n):
+    def findCheapestPrice_bellman(self, n, flights, src, dst, K):
         # bellman ford
-
-        dp = [[float("inf")] * (K + 2) for _ in range(n)]
-        dp[src] = [0] * (K + 2)
+        dp = collections.defaultdict(dict)
+        allCities = {i for i, j, k in flights} | {j for i, j, k in flights}
+        # we could do K + 1 times loop, every time, we could relax a node (find the shortest distance between a node with src)
+        for city in allCities:
+            for k in range(K + 2):
+                if city != src:
+                    dp[city][k] = float('inf')
+                else:
+                    dp[city][k] = 0
+        prev = {}
         for k in range(1, K + 2):
             for u, v, w in flights:
-                if dp[u][k - 1] != float('inf') and dp[u][k - 1] + w < dp[v][k]: dp[v][k] = dp[u][k - 1] + w
-        return dp[dst][K + 1] if dp[dst][K + 1] != float('inf') else -1
+                if dp[u][k - 1] != float('inf') and dp[u][k - 1] + w < dp[v][k]:
+                    dp[v][k] = dp[u][k - 1] + w
+                    prev[v] = u
+        if dp[dst][K + 1] == float('inf'):
+            return 'impossible!'
+        else:
+            path = [dst]
+            while path[-1] != src:
+                path.append(prev[path[-1]])
+            path = list(map(str, path))[::-1]
+            return ' -> '.join(path) + ':' + str(dp[dst][K + 1])
+
+    def findCheapestPrice_bellman_optimized(self, n, flights, src, dst, K):
+        # bellman ford
+        dp = collections.defaultdict(lambda : float('inf'))
+        dp[src] = 0
+        prev = {}
+        for k in range(1, K + 2):
+            tep = copy.deepcopy(dp)
+            for u, v, w in flights:
+                if dp[u] != float('inf') and dp[u] + w < tep[v]:
+                    tep[v] = dp[u] + w
+                    prev[v] = u
+            dp = tep
+        if dp[dst] == float('inf'):
+            return 'impossible!'
+        else:
+            path = [dst]
+            while path[-1] != src:
+                path.append(prev[path[-1]])
+            path = list(map(str, path))[::-1]
+            return ' -> '.join(path) + ':' + str(dp[dst])
 
     def findCheapestPrice_bellman_1d(self, flights, src, dst, K, n):
         # bellman ford
@@ -41,6 +61,31 @@ class Solution:
                     tep[v] = dp[u] + w
             dp = tep
         return dp[dst] if dp[dst] != float('inf') else -1
+
+    def findCheapestPrice(self,n, flights, src, dst, K):
+        '''
+        no cycle detection, because we can only move K steps, there will not be a circle problem
+        '''
+        graph = collections.defaultdict(dict)
+        for s, e, cost in flights:
+            graph[s][e] = cost
+        heap = [(0, src, None, K + 1)]
+        prev = {}
+        while heap:
+            cost, curr, pre, stops = heapq.heappop(heap)
+            prev[curr] = pre
+            if curr == dst:
+                # incorrect, can not using this to print the route!!!
+                path = [dst]
+                while path[-1] != src:
+                    path.append(prev[path[-1]])
+                path = list(map(str, path))[::-1]
+                return ' -> '.join(path) + ':' + str(cost)
+            if stops:
+                for nxt, price in graph[curr].items():
+                    heapq.heappush(heap, (cost + price, nxt, curr, stops - 1))
+        return -1
+
 
     def findCheapestPrice_optimized(self, flights, src, dst, K):
         '''
@@ -95,3 +140,13 @@ def shortest_path(edges, src, dst, n):
                 dp[v][k] = dp[u][k - 1] + w
     return dp[dst][n]
 
+print(Solution().findCheapestPrice_bellman_optimized(5,
+[[1,2,200],[2,3,250],[1,3,400],[1,4,500],[3,4,50]],
+1,
+4,
+1))
+print(Solution().findCheapestPrice(5,
+[[1,2,200],[2,3,250],[1,3,400],[1,4,500],[3,4,50]],
+1,
+4,
+1))

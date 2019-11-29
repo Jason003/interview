@@ -6,7 +6,7 @@ class Node:
 class Solution:
     def findWords(self, A, words):
         if not A:
-            return []
+            return 0
 
         # build trie
         root = Node()
