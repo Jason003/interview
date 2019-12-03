@@ -9,6 +9,7 @@ class TreeNode:
 
 
 def lca_parent(p, q):
+    # 问清楚是不是都在树上
     def getHeight(node):
         h = 0
         while node:

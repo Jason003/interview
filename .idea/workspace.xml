@@ -2,63 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="restructured">
-      <change afterPath="$PROJECT_DIR$/linkedin/Exclusive Time of Functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Longest Common Subsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Reverse Words in a String.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/cache with rank and capacity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/insert delete search in BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/interval cover length.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/lca带parent指针.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/num of BSTs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/replace string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/union and intersection of sorted arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/1bq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Add Binary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Add Strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Best Time to Buy and Sell Stock III.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Coin Change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Decode Ways.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Encode and Decode TinyURL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Integer to Roman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Letter Combinations of a Phone Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Meeting Rooms II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Print out an immutable singly linked list in reverse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Roman to Integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Simplify Path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Top K Frequent Words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Valid Parentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/Wildcard Matching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/coffee machine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/merge_intervals_with_flag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/moorse code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/swapcard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oscar/topk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/1024 block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/All Palindromic Subsequence in a given String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Decode Ways.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design HashMap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Determine if given number is a perfect square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Simplify Path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Stack that can get median in O(1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/find if there is a triple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/generate binary tree using parent child map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/second minimum of Tournament tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/找到比自己大一号的字母.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/链表交点.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/Menu Combination Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/Menu Combination Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/Pour Water.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/Pour Water.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/Sliding Game N puzzle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/alien dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/alien dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/boggle game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/boggle game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/maximal profit of intervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/maximal profit of intervals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/判断链表是否有交点.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/滑雪.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/电面/binarySearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/电面/divideArray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/电面/kMultiply.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/电面/lis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/电面/max.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/电面/maxSubarray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/电面/shortestDistance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oscar/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Break Palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oscar/combination.py" beforeDir="false" afterPath="$PROJECT_DIR$/oscar/isInterleave.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/oscar/merge 2 sorted interval list with flags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stripe/vo/oa.py" beforeDir="false" afterPath="$PROJECT_DIR$/stripe/vo/oa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber/出现频率最高的interval.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber/围棋.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/lca带parent指针.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/lca带parent指针.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/union and intersection of sorted arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/union and intersection of sorted arrays.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,30 +34,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>event_priority</find>
-      <find>*</find>
-      <find>;</find>
-      <find>&amp; &amp;</find>
-      <find>}</find>
-      <find>ancestors</find>
-      <find>，</find>
-      <find>xrange</find>
-      <find>BHasCircle</find>
-      <find>start</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>priority</replace>
-      <replace>]</replace>
-      <replace>and</replace>
-      <replace>)</replace>
-      <replace>ancestor</replace>
-      <replace>,</replace>
-      <replace>range</replace>
-      <replace>enterPointB</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -111,11 +45,12 @@
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/linkedin" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\79257\Desktop\Python\interview\linkedin" />
       <recent name="C:\Users\79257\Desktop\Python\Python学习\stripe" />
       <recent name="C:\Users\79257\Desktop\Python\Python学习\Airbnb" />
       <recent name="C:\Users\79257\Desktop\Python\Python学习\uber" />
@@ -138,7 +73,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.union and intersection of sorted arrays">
+  <component name="RunManager" selected="Python.second minimum of Tournament tree">
+    <configuration name="找到比自己大一号的字母" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/找到比自己大一号的字母.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1024 block" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/1024 block.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Cheapest Flights Within K Stops" type="PythonConfigurationType" factoryName="Python">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cache with rank and capacity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Decode Ways" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +153,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/cache with rank and capacity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Decode Ways.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="interval cover length" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="moorse code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,56 +170,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oscar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/interval cover length.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lca带parent指针" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/lca带parent指针.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="replace string" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/replace string.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oscar/moorse code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="union and intersection of sorted arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="second minimum of Tournament tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,7 +219,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/union and intersection of sorted arrays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/second minimum of Tournament tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,19 +231,19 @@
     <list>
       <item itemvalue="Python.replayJson" />
       <item itemvalue="Python.Cheapest Flights Within K Stops" />
-      <item itemvalue="Python.union and intersection of sorted arrays" />
-      <item itemvalue="Python.lca带parent指针" />
-      <item itemvalue="Python.replace string" />
-      <item itemvalue="Python.cache with rank and capacity" />
-      <item itemvalue="Python.interval cover length" />
+      <item itemvalue="Python.1024 block" />
+      <item itemvalue="Python.moorse code" />
+      <item itemvalue="Python.Decode Ways" />
+      <item itemvalue="Python.找到比自己大一号的字母" />
+      <item itemvalue="Python.second minimum of Tournament tree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.union and intersection of sorted arrays" />
-        <item itemvalue="Python.interval cover length" />
-        <item itemvalue="Python.cache with rank and capacity" />
-        <item itemvalue="Python.replace string" />
-        <item itemvalue="Python.lca带parent指针" />
+        <item itemvalue="Python.second minimum of Tournament tree" />
+        <item itemvalue="Python.找到比自己大一号的字母" />
+        <item itemvalue="Python.Decode Ways" />
+        <item itemvalue="Python.moorse code" />
+        <item itemvalue="Python.1024 block" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +265,13 @@
       <workItem from="1574777650702" duration="881000" />
       <workItem from="1574867237103" duration="3455000" />
       <workItem from="1574950751744" duration="10027000" />
-      <workItem from="1575047361111" duration="1295000" />
+      <workItem from="1575047361111" duration="7349000" />
+      <workItem from="1575156183554" duration="659000" />
+      <workItem from="1575245620066" duration="5149000" />
+      <workItem from="1575298066094" duration="3917000" />
+      <workItem from="1575318353521" duration="2757000" />
+      <workItem from="1575343285251" duration="1787000" />
+      <workItem from="1575380475408" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="Added 2 solutions">
       <created>1572538867656</created>
@@ -430,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573522612655</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="restructured">
+      <created>1575048758679</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575048758679</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -466,18 +414,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="restructured" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/interview$moorse_code.coverage" NAME="moorse code Coverage Results" MODIFIED="1575301832277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
     <SUITE FILE_PATH="coverage/interview$cache_with_rank_and_capacity.coverage" NAME="cache with rank and capacity Coverage Results" MODIFIED="1574970016775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/interview$interval_cover_length.coverage" NAME="interval cover length Coverage Results" MODIFIED="1574995866086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/Python$coffee_machine.coverage" NAME="coffee machine Coverage Results" MODIFIED="1574045745220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
     <SUITE FILE_PATH="coverage/interview$union_and_intersection_of_sorted_arrays.coverage" NAME="union and intersection of sorted arrays Coverage Results" MODIFIED="1575048707585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/interview$num_of_BSTs.coverage" NAME="num of BSTs Coverage Results" MODIFIED="1574777820672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Stack_that_can_get_median_in_O_1_.coverage" NAME="Stack that can get median in O(1) Coverage Results" MODIFIED="1575053180249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Decode_Ways.coverage" NAME="Decode Ways Coverage Results" MODIFIED="1575302236800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/Python$merge_2_sorted_interval_list_with_flags.coverage" NAME="merge 2 sorted interval list with flags Coverage Results" MODIFIED="1574045099953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
     <SUITE FILE_PATH="coverage/interview$lcaparent.coverage" NAME="lca带parent指针 Coverage Results" MODIFIED="1574963694836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/Python$merge_intervals_with_flag.coverage" NAME="merge_intervals_with_flag Coverage Results" MODIFIED="1574003679983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
     <SUITE FILE_PATH="coverage/Python$moorse_code.coverage" NAME="moorse code Coverage Results" MODIFIED="1574043928869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
+    <SUITE FILE_PATH="coverage/interview$Determine_if_given_number_is_a_perfect_square.coverage" NAME="Determine if given number is a perfect square Coverage Results" MODIFIED="1575255084744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/Python$oa.coverage" NAME="oa Coverage Results" MODIFIED="1574002723249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stripe/vo" />
+    <SUITE FILE_PATH="coverage/interview$1024_block.coverage" NAME="1024 block Coverage Results" MODIFIED="1575300504287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$.coverage" NAME="找到比自己大一号的字母 Coverage Results" MODIFIED="1575320189229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/Python$merge_timeline.coverage" NAME="merge timeline Coverage Results" MODIFIED="1574044668050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
     <SUITE FILE_PATH="coverage/Python$2d_Iterator.coverage" NAME="2d Iterator Coverage Results" MODIFIED="1573951413666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Airbnb" />
+    <SUITE FILE_PATH="coverage/interview$All_Palindromic_Subsequence_in_a_given_String.coverage" NAME="All Palindromic Subsequence in a given String Coverage Results" MODIFIED="1575248889210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$generate_binary_tree_using_parent_child_map.coverage" NAME="generate binary tree using parent child map Coverage Results" MODIFIED="1575254765784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$second_minimum_of_Tournament_tree.coverage" NAME="second minimum of Tournament tree Coverage Results" MODIFIED="1575345262651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/interview$replace_string.coverage" NAME="replace string Coverage Results" MODIFIED="1574964987623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
   </component>
 </project>
