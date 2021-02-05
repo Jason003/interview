@@ -18,7 +18,7 @@ def another(A, x):
             return a
     return A[0]
 import random
-for _ in range(1000):
+for _ in range(10000):
     A = sorted([random.randint(0, 100) for _ in range(100)])
     x = random.randint(0, 100)
     assert findGreaterThan(A, x) == another(A, x)

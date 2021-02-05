@@ -11,19 +11,22 @@ def subdomainVisits(spdomains):
 
 print(subdomainVisits(["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]))
 
+u1 = ['abc', 'ddd', 'xyz', 'eee']
+u2 = ['abc', 'xyz', 'eee']
 def longestCommonHistory(A, B):
     m, n = len(A), len(B)
-    dp = [[[] for i in range(n + 1)] for j in range(m + 1)]
+    dp = [[0 for i in range(n + 1)] for j in range(m + 1)]
     res = []
     for i in range(1, len(A) + 1):
         for j in range(1, len(B) + 1):
             if A[i - 1] == B[j - 1]:
-                dp[i][j] = max(dp[i - 1][j - 1] + [A[i - 1]], dp[i][j], key = len)
+                dp[i][j] = max(dp[i - 1][j - 1] + 1, dp[i][j])
             else:
-                dp[i][j] = []
-            res = max(dp[i][j], res, key = len)
+                dp[i][j] = 0
+            res = max(A[i - dp[i][j] : i], res, key = len)
     return res
 
+print(longestCommonHistory(u1, u2))
 def longestCommonHistory2(A, B):
     m, n = len(A), len(B)
     dp = [[] for i in range(n + 1)]

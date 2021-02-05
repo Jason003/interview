@@ -4,11 +4,11 @@
 # * Given a tournament tree find the second minimum value in the tree.
 # * A node in the tree will always have 2 or 0 children.
 # * Also all leaves will have distinct and unique values.
-# *         2
+# *         1
 # *      /    \
-# *     2      3
-# *    / \    /  \
-# *   4   2   5   3
+# *     1      3
+# *    / \
+# *   1   2
 # * 2,3,4,5
 # * In this given tree the answer is 3.
 '''
@@ -16,7 +16,7 @@ Basically, you are comparing all the winners except the first winner. That is wh
 Time complexity: O(log(N)) where N is the number of players.
 Space complexity: O(log(N)) depth of the recusive stack
 '''
-
+import heapq
 
 class Node:
     def __init__(self, val):
@@ -44,24 +44,23 @@ class Solution(object):
             return l
 
     def findKthMinimumValue(self, root, k):
-        dq = collections.deque([root])
+        heap = []
         seen = set()
-        while dq:
-            sz = len(dq)
-            for _ in range(sz):
-                curr = dq.popleft()
-                seen.add(curr.val)
-                if len(seen) == k:
-                    return max(seen)
-                if curr.left:
-                    dq.append(curr.left)
-                if curr.right:
-                    dq.append(curr.right)
-        return -1
+        def dfs(node):
+            if node:
+                dfs(node.left)
+                if node.val not in seen:
+                    seen.add(node.val)
+                    heapq.heappush(heap, -node.val)
+                    if len(heap) > k: heapq.heappop(heap)
+                dfs(node.right)
+        dfs(root)
+        return -heap[0]
 
-root = Node(2)
-root.left = Node(2)
-root.left.left = Node(4)
+
+root = Node(1)
+root.left = Node(1)
+root.left.left = Node(1)
 root.left.right = Node(2)
 root.right = Node(3)
 root.right.left = Node(5)

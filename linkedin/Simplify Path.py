@@ -6,6 +6,4 @@ class Solution:
             if c == '..':
                 if stack: stack.pop()
             else: stack.append(c)
-        for c in stack:
-            res += '/' + c
-        return res if res else '/'
+        return '/' + '/'.join(stack)

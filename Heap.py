@@ -11,7 +11,8 @@ class Heap:
             p = (i - 1) // 2
             if self.A[p] < self.A[i]:
                 self._swap(p, i)
-            else: break
+            else:
+                break
             i = p
 
     def push(self, num):  # insert a new number to the heap
@@ -19,13 +20,14 @@ class Heap:
         self._swim(self.N)
         self.N += 1
 
-    def _sink(self, i): # sink the key from higher to right place
+    def _sink(self, i):  # sink the key from higher to right place
         while i * 2 + 1 < self.N:
             c = i * 2 + 1
             if c + 1 < self.N and self.A[c] < self.A[c + 1]:  c += 1
             if self.A[c] > self.A[i]:
                 self._swap(c, i)
-            else: break
+            else:
+                break
             i = c
 
     def pop(self):
@@ -35,7 +37,10 @@ class Heap:
             self._swap(0, self.N)
             self._sink(0)
             return res
+
+
 import random
+
 if __name__ == '__main__':
     heap = Heap()
     for i in range(100):

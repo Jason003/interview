@@ -28,4 +28,4 @@ class Solution:
 
         d = {}
         return dfs(0)
-print(Solution().numDecodings2('01'))
+print(Solution().numDecodings2('25'))

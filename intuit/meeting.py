@@ -1,11 +1,10 @@
 import collections
-def canAdd(A, m):
-    A.append(m)
-    A.sort()
-    for i in range(len(A) - 1):
-        if A[i + 1][0] < A[i][1]:
+def canAdd(meetings, start, end):
+    for meeting in meetings:
+        if meeting[0] <= start < meeting[1] or meeting[0] < end <= meeting[1] or start < meeting[0] and meeting[1] < end:
             return False
     return True
+
 
 
 def freeTime(A):

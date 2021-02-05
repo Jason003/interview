@@ -10,9 +10,9 @@ def find1(A, mark):
                 p1[1] = min(p1[1], j)
                 p2[0] = max(p2[0], i)
                 p2[1] = max(p2[1], j)
-    print(p1 + p2)
+    print(p1 + p2 if p1[0] != float('inf') else [])
 
-# find1([[0, 0, 0],[0,0,0],[1,1,1]], 0)
+find1([[0, 0, 0],[0,0,0],[1,1,1]], 0)
 
 
 def find2(A):
@@ -43,3 +43,23 @@ find2([
 ])
 
 
+
+def numDistinctIslands(A):
+    seen = set()
+    m, n = len(A), len(A[0])
+
+    def dfs(i, j, curr):
+        if 0 <= i < m and 0 <= j < n and A[i][j]:
+            A[i][j] = 0
+            curr.append((i, j))
+            for di, dj in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                dfs(i + di, j + dj, curr)
+
+    for i in range(m):
+        for j in range(n):
+            if A[i][j]:
+                curr = []
+                dfs(i, j, curr)
+                ref = sorted(curr)[0]
+                seen.add(tuple([(i - ref[0], j - ref[1]) for i, j in curr]))
+    return len(seen)

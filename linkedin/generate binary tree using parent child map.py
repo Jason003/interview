@@ -33,31 +33,33 @@ class Solution(object):
     def buildTree(self, lst):
         if not lst:
             return None
-        # Initialize a queue
-        q = []
+        # Initialize a stack
+        stack = []
         # Create a map of parent to list of children with direction
         parents = defaultdict(list)
         for item in lst:
             child, parent, isLeft = item
             if parent == None:
-                q = [Node(child)]
+                stack = [Node(child)]
             else:
                 parents[parent].append((child, isLeft))
 
-        head = q[0]
-        while q:
-            node = q.pop()
+        head = stack[0]
+        while stack:
+            node = stack.pop()
             children = parents[node.val]
             if not children:
                 continue
-            left = children[0] if children[0][1] == True else children[1]
-            right = children[0] if children[0][1] == False else children[1]
-            left_node = Node(left[0])
-            right_node = Node(right[0])
-            node.left = left_node
-            node.right = right_node
-            q.append(left_node)
-            q.append(right_node)
+            left = children[0] if children[0][1] else (children[1] if len(children) == 2 else None)
+            right = children[0] if not children[0][1] else (children[1] if len(children) == 2 else None)
+            if left is not None:
+                left_node = Node(left[0])
+                node.left = left_node
+                stack.append(left_node)
+            if right is not None:
+                right_node = Node(right[0])
+                node.right = right_node
+                stack.append(right_node)
         return head
 
     def printTreeLevelOrder(self, head):
@@ -79,6 +81,6 @@ class Solution(object):
 
         return res
 
-lst = [[15,20,True], [19,80,True], [17,20,False], [16,80,False], [80,50,False], [50,None,False],[20,50,True]]
+lst = [[15,20,True], [19,80,True], [17,20,False], [16,80,False], [80,50,False], [50,None,False]]
 head = Solution().buildTree(lst)
 print(Solution().printTreeLevelOrder(head))

@@ -3,19 +3,16 @@ class ListNode(object):
         self.val = x
         self.next = None
 
+    def __repr__(self):
+        return str(self.val)
+
 
 def getIntersectionNode(headA, headB):
     a, b = headA, headB
-    while a and b:
-        if a == b:
-            return a
-        a = a.next
-        b = b.next
-        if not a:
-            a = headB
-        elif not b:
-            b = headA
-    return None
+    while a != b:
+        a = a.next if a else headB
+        b = b.next if b else headA
+    return a
 
 
 def judgeIntersectionIfWithCicle(headA, headB):
@@ -40,7 +37,7 @@ def judgeIntersectionIfWithCicle(headA, headB):
     if not enterPointA and not enterPointB:  # if both of them don't have a circle
         return getIntersectionNode(headA, headB)
 
-    if enterPointA or enterPointB:  # if one of them has a circle, they won't intersect
+    if enterPointA and not enterPointB or enterPointB and not enterPointA:  # if one of them has a circle, they won't intersect
         return False
 
     # if both have circle
@@ -50,18 +47,31 @@ def judgeIntersectionIfWithCicle(headA, headB):
         enterPointA.next = None
         return getIntersectionNode(headA, headB)
     else:
-        p = enterPointA.next
-        while p != enterPointA:
-            if p == enterPointB:
-                return enterPointA, enterPointB
-            p = p.next
-        return None
+        return enterPointA, enterPointB
+
+        # p = enterPointA.next
+        # while p != enterPointA:
+        #     if p == enterPointB:
+        #         return enterPointA, enterPointB
+        #     p = p.next
+        # return None
 
 
-headA = ListNode(1)
-headB = ListNode(1)
-a = ListNode(1)
-b = ListNode(1)
-c = ListNode(1)
-d = ListNode(1)
-e = ListNode(1)
+root1 = ListNode(1)
+root2 = ListNode(2)
+
+
+
+a = ListNode(3)
+b = ListNode(4)
+c = ListNode(5)
+d = ListNode(6)
+f = ListNode(7)
+a.next = b
+b.next = c
+c.next = d
+
+root1.next = f
+root2.next = a
+f.next = a
+print(judgeIntersectionIfWithCicle(root1, root2))

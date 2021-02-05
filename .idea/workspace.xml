@@ -1,31 +1,364 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9e2e74-5077-4ff2-b5e2-4c5eee8df2d5" name="Default" comment="restructured">
-      <change afterPath="$PROJECT_DIR$/linkedin/1024 block.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/All Palindromic Subsequence in a given String.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Decode Ways.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Design HashMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Determine if given number is a perfect square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Simplify Path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Stack that can get median in O(1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/find if there is a triple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/generate binary tree using parent child map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/second minimum of Tournament tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/找到比自己大一号的字母.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/链表交点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Akuna/Design Elevator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Akuna/Minimum Moves to Move a Box to Their Target Location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Akuna/shortest path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All O`one Data Structure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon 后补/Logger Rate Limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/1 python comparator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/3Sum &amp; 3Sum Closest &amp; 3Sum Smaller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/All Nodes Distance K in Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Analyze User Website Visit Pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Basic Calculator III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Binary Tree Maximum Path Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Binary Tree Paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Boundary of Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Break a Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Bus Routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Campus Bikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Clone Graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Coin Change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Concatenated Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Construct Binary Search Tree from Preorder Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Convert Sorted List to Binary Search Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Count Primes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Data Stream as Disjoint Intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Decode String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Decode Ways.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Delete Node in a Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Delete Nodes And Return Forest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Design In-Memory File System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Design Linux Find.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Design Search Autocomplete System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Design Snake Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Design Tic-Tac-Toe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Diameter of Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Divide Array in Sets of K Consecutive Numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Encode String with Shortest Length.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Encode and Decode TinyURL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Evaluate Division.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Find Median from Data Stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Find target word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Find the Celebrity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Find the Closest Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/First Unique Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Flood Fill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Frog Jump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Global and Local Inversions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/House Robber III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Insert Delete GetRandom O(1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Integer to English Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Interleaving String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Isomorphic Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Jump Games.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/K Closest Points to Origin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/LCA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/LFU Cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/LRU Cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Largest 1-Bordered Square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Largest BST Subtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Linked List Random Node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Longest Consecutive Sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Longest Duplicate Substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Longest Substring Without Repeating Characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Longest Substring with At Least K Repeating Characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Lowest Common Ancestor of a Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Majority Element II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Max Points on a Line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Maximal Rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Maximum Frequency Stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Maximum Product Subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Maximum Sum BST in Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Maximum Sum of Two Non-Overlapping Subarrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Minimum Difficulty of a Job Schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Minimum Path Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Minimum Window Substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Missing Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/N-Queens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Next Greater Element II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Next Permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Number of Atoms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Number of Closed Islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Number of Longest Increasing Subsequence(lis).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Optimal Account Balancing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Palindrome Partitioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Path With Maximum Minimum Value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Product of Array Except Self.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Pyramid Transition Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Range(Interval) Module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Reconstruct Itinerary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Recover Binary Search Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Reverse Nodes in k-Group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Robot Bounded In Circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Roman &amp; Integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Serialize and Deserialize Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Shortest Distance from All Buildings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Shortest Subarray with Sum at Least K.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Shuffle an Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Single Element in a Sorted Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Single Number II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Sliding Window Maximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Sliding Window Median.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Smallest Range Covering Elements from K Lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Sort Colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Sort LinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Spiral Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Split Array Largest Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/String to Integer (atoi).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Subarrays with K Different Integers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Sudoku Solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Symmetric Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Text Justification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/The Maze II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/The Skyline Problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Time Based Key-Value Store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Top K Frequent Elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Trapping Rain Water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Tree Diameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Unique Paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Valid Sudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Web Crawler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Word Break II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Word Ladder II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Word Search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/number of BSTs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/rate limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/十字路口.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/背包问题 (target sum).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/3 sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Accounts Merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Alien Dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Best Time to Buy and Sell Stock IV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Binary Tree Vertical Order Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Candy Crush.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Construct Binary Tree from Preorder and Inorder Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Design Elevator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Design Sorted Singly Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Design Underground System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Find Minimum in Rotated Sorted Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/First Unique Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Flatten a Multilevel Doubly Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Insert Delete GetRandom O(1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/LRU cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Largest BST Subtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Lowest Common Ancestor of a Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Maximum Number of Events That Can Be Attended.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Merge Intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Minesweeper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Minimum Remove to Make Valid Parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Number of Distinct Islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Number of Islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Populating Next Right Pointers in Each Node II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Regular Expression Matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Remove All Adjacent Duplicates in String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Shortest Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Super Egg Drop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Two City min cost flight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Ugly Number II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Valid Triangle Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Word Break II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/Word Ladder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/all paths from a to d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/binary tree remove node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/decode string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/findFirstUniqueChar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/meeting rooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/stock records.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/top k prices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/压缩字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/密码锁.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/括号.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/最长不重复子字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/约瑟夫环.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bloomberg/马拉松.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Count All Valid Pickup and Delivery Options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Design Browser History.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/3Sum &amp; 3Sum Closest &amp; 3Sum Smaller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Basic Calculator III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Best Time to Buy and Sell Stock IV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Course Schedule II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Design Tic-Tac-Toe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Design Twitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Employee free time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Interval List Intersections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/LRU Cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Leetcode/Random Pick with Weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Max Area of Island.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/Number of Islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doordash/sliding window maximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Implement strStr().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Implementation of Deque using circular array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LFU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Add Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Integer to English Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Out of Boundary Paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Sort Characters By Frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Unique Binary Search Trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Vo/Integer to English Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Vo/Sparse Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Vo/cluster 3D points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Vo/parse yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Vo/rotate times.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Vo/sliding window mode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nuro/Vo/thread safe lru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reverse Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amount of 3 pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/combination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Binary Tree Vertical Order Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Closest Leaf in a Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Convert Binary Search Tree to Sorted Doubly Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Design Hit Counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/First Missing Positive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Insert Delete GetRandom O(1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Kth Smallest Element in a BST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Remove Comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Sliding Window Maximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Spiral Matrix II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Trapping Rain Water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databricks/Tree Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extractCertainNodesFromTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getMod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intuit/ancestor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intuit/design sparse vector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intuit/door.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intuit/reflow string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intuit/valid matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/All O`one Data Structure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Best Meeting Point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Binary Search Tree Iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Binary Tree Upside Down.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Building H2O.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Can I Win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Can Place Flowers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Closest Binary Search Tree Value II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Coin Change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Combination Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Count Different Palindromic Subsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Daily Temperatures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design/1st 2nd 3rd联系人.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design/Design Bounded Blocking Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design/Design Delay Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design/Get avg for a period stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design/MergeCompute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design/StreamOnMemory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Design/Web Crawler Multithreaded.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Edit Distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Evaluate Reverse Polish Notation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Factor Combinations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Find First and Last Position of Element in Sorted Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Find K Pairs with Smallest Sums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Find Leaves of Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Find distance between two nodes of a Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Flatten Nested List Iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Flower Planting With No Adjacent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Implement Rand10() Using Rand7().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Insert Delete GetRandom O(1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Integer to English Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Integer to Roman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Is Graph Bipartite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Isomorphic Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Kth Largest Element in an Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Longest Consecutive Sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Longest Increasing Path in a Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Longest Palindromic Subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Max Points on a Line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Max Stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Maximum Profit in Job Scheduling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Merge k Sorted Lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Nested List Weight Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Partition to K Equal Sum Subsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Perfect Squares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Plus One Linked List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Pow(x, n).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Range(Interval) Module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Recover a Tree From Preorder Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Repeated DNA Sequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/RetainBestCache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Rotate(Reverse) List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Sparse Matrix Multiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Subarray Product Less Than K.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Sum of All Odd Length Subarrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Text Justification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Time Based Key-Value Store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Valid Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Validate Stack Sequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/max min depth of a tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/min max in 2D array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/paint house.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/path sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/sqrt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morris traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithread/join.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sap/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sap/strict increasing digits less than n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smallest common number in n arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python学习.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/Cheapest Flights Within K Stops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intuit/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/intuit/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intuit/courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/intuit/courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intuit/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/intuit/employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intuit/findWork.py" beforeDir="false" afterPath="$PROJECT_DIR$/intuit/OA/findWord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intuit/island.py" beforeDir="false" afterPath="$PROJECT_DIR$/intuit/find matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intuit/meeting.py" beforeDir="false" afterPath="$PROJECT_DIR$/intuit/meeting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intuit/subdomain.py" beforeDir="false" afterPath="$PROJECT_DIR$/intuit/subdomain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/1024 block.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/1024 block.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/All Palindromic Subsequence in a given String.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/All Palindromic Subsequence in a given String.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Break Palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Break Palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Decode Ways.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Decode Ways.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Design HashMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Design HashMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Determine if given number is a perfect square.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Determine if given number is a perfect square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Reverse Words in a String.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Reverse Words in a String.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Simplify Path.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Simplify Path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Stack that can get median in O(1).py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Stack that can get median in O(1).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Akuna/BattleShip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/generate binary tree using parent child map.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/generate binary tree using parent child map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedin/lca带parent指针.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/lca带parent指针.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/union and intersection of sorted arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/union and intersection of sorted arrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/second minimum of Tournament tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/second minimum of Tournament tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/找到比自己大一号的字母.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/找到比自己大一号的字母.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/链表交点.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/链表交点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stripe/rate limiter.py" beforeDir="false" afterPath="$PROJECT_DIR$/stripe/rate limiter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/Random Pick with Weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/uber/Random Pick with Weight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/rate limiter.py" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Python学习" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,39 +375,36 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/linkedin" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79257\Desktop\Python\interview\linkedin" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\Doordash\Leetcode" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\Amazon 后补" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\Amazon" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\intuit\OA" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\79257\Desktop\Python\interview\linkedin" />
-      <recent name="C:\Users\79257\Desktop\Python\Python学习\stripe" />
-      <recent name="C:\Users\79257\Desktop\Python\Python学习\Airbnb" />
-      <recent name="C:\Users\79257\Desktop\Python\Python学习\uber" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\79257\Desktop\Python\Python学习\stripe\vo" />
-      <recent name="C:\Users\79257\Desktop\Python\Python学习" />
-      <recent name="C:\Users\79257\Desktop\Python\Python学习\Google\OA" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\linkedin\Design" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\Doordash\Leetcode" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\Amazon" />
+      <recent name="C:\Users\79257\Desktop\Python\interview\databricks" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.second minimum of Tournament tree">
-    <configuration name="找到比自己大一号的字母" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="找到比自己大一号的字母" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,28 +418,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/找到比自己大一号的字母.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1024 block" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/1024 block.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +448,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Decode Ways" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Combination Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,7 +461,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Decode Ways.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Combination Sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +470,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="moorse code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Get avg for a period stock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,12 +478,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oscar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin/Design" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oscar/moorse code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Design/Get avg for a period stock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="链表交点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linkedin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/链表交点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +536,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="second minimum of Tournament tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="second minimum of Tournament tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,22 +558,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.replayJson" />
       <item itemvalue="Python.Cheapest Flights Within K Stops" />
-      <item itemvalue="Python.1024 block" />
-      <item itemvalue="Python.moorse code" />
-      <item itemvalue="Python.Decode Ways" />
-      <item itemvalue="Python.找到比自己大一号的字母" />
+      <item itemvalue="Python.replayJson" />
       <item itemvalue="Python.second minimum of Tournament tree" />
+      <item itemvalue="Python.找到比自己大一号的字母" />
+      <item itemvalue="Python.Combination Sum" />
+      <item itemvalue="Python.Get avg for a period stock" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.second minimum of Tournament tree" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Get avg for a period stock" />
+        <item itemvalue="Python.Combination Sum" />
         <item itemvalue="Python.找到比自己大一号的字母" />
-        <item itemvalue="Python.Decode Ways" />
-        <item itemvalue="Python.moorse code" />
-        <item itemvalue="Python.1024 block" />
+        <item itemvalue="Python.second minimum of Tournament tree" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +623,98 @@
       <workItem from="1575298066094" duration="3917000" />
       <workItem from="1575318353521" duration="2757000" />
       <workItem from="1575343285251" duration="1787000" />
-      <workItem from="1575380475408" duration="3220000" />
+      <workItem from="1575380475408" duration="10141000" />
+      <workItem from="1575423025965" duration="975000" />
+      <workItem from="1575752023245" duration="1352000" />
+      <workItem from="1579074200797" duration="748000" />
+      <workItem from="1580733519459" duration="68000" />
+      <workItem from="1585873819942" duration="2232000" />
+      <workItem from="1586032074007" duration="20000" />
+      <workItem from="1596504612851" duration="742000" />
+      <workItem from="1596648423556" duration="2898000" />
+      <workItem from="1597075775958" duration="4955000" />
+      <workItem from="1597151167754" duration="660000" />
+      <workItem from="1597365432085" duration="1818000" />
+      <workItem from="1597431990096" duration="8511000" />
+      <workItem from="1597450214941" duration="4090000" />
+      <workItem from="1597496219340" duration="5925000" />
+      <workItem from="1597541714820" duration="1796000" />
+      <workItem from="1597630980265" duration="770000" />
+      <workItem from="1597710323963" duration="9314000" />
+      <workItem from="1597754480513" duration="5768000" />
+      <workItem from="1597777314691" duration="14434000" />
+      <workItem from="1597857378757" duration="6574000" />
+      <workItem from="1598058442562" duration="599000" />
+      <workItem from="1598230453043" duration="1734000" />
+      <workItem from="1598300256817" duration="4445000" />
+      <workItem from="1598382767521" duration="4734000" />
+      <workItem from="1598467552568" duration="8875000" />
+      <workItem from="1598534759044" duration="6756000" />
+      <workItem from="1598623335569" duration="9655000" />
+      <workItem from="1598755496692" duration="1359000" />
+      <workItem from="1598907007207" duration="4891000" />
+      <workItem from="1598968695426" duration="7754000" />
+      <workItem from="1599141232541" duration="8967000" />
+      <workItem from="1599169047442" duration="2616000" />
+      <workItem from="1599444052094" duration="1539000" />
+      <workItem from="1599510191213" duration="2911000" />
+      <workItem from="1599576683047" duration="3128000" />
+      <workItem from="1599663558310" duration="6394000" />
+      <workItem from="1599745490085" duration="6508000" />
+      <workItem from="1599827167867" duration="2304000" />
+      <workItem from="1599872525483" duration="2000" />
+      <workItem from="1600129811147" duration="2226000" />
+      <workItem from="1600215135801" duration="1835000" />
+      <workItem from="1600255350537" duration="616000" />
+      <workItem from="1600256855930" duration="883000" />
+      <workItem from="1600984123255" duration="11332000" />
+      <workItem from="1601043493353" duration="20091000" />
+      <workItem from="1601128426468" duration="12846000" />
+      <workItem from="1601216233163" duration="5779000" />
+      <workItem from="1601310653388" duration="10735000" />
+      <workItem from="1601386686697" duration="19994000" />
+      <workItem from="1601556158994" duration="15889000" />
+      <workItem from="1601647190907" duration="8270000" />
+      <workItem from="1602114995526" duration="33000" />
+      <workItem from="1603226368993" duration="2379000" />
+      <workItem from="1603394490919" duration="6344000" />
+      <workItem from="1603489236169" duration="8442000" />
+      <workItem from="1603837154005" duration="3093000" />
+      <workItem from="1604100527477" duration="859000" />
+      <workItem from="1604190564153" duration="1820000" />
+      <workItem from="1604270770245" duration="30000" />
+      <workItem from="1604323973052" duration="247000" />
+      <workItem from="1604884216290" duration="18000" />
+      <workItem from="1604885211452" duration="16000" />
+      <workItem from="1605008392412" duration="1854000" />
+      <workItem from="1605056152248" duration="6779000" />
+      <workItem from="1605256743180" duration="1358000" />
+      <workItem from="1605267590598" duration="1001000" />
+      <workItem from="1605320548577" duration="1733000" />
+      <workItem from="1605513779579" duration="829000" />
+      <workItem from="1605683183066" duration="16000" />
+      <workItem from="1606868699158" duration="19939000" />
+      <workItem from="1606922055603" duration="643000" />
+      <workItem from="1606955052916" duration="12669000" />
+      <workItem from="1606995085725" duration="2002000" />
+      <workItem from="1607043841138" duration="1302000" />
+      <workItem from="1607128680109" duration="3635000" />
+      <workItem from="1607239129409" duration="5857000" />
+      <workItem from="1607260926759" duration="927000" />
+      <workItem from="1607305586156" duration="7984000" />
+      <workItem from="1607390080021" duration="11323000" />
+      <workItem from="1607474512742" duration="3927000" />
+      <workItem from="1607567718996" duration="10365000" />
+      <workItem from="1607648955075" duration="5999000" />
+      <workItem from="1607655867091" duration="1507000" />
+      <workItem from="1607738927680" duration="1639000" />
+      <workItem from="1607760303969" duration="20777000" />
+      <workItem from="1607910098284" duration="603000" />
+      <workItem from="1607912070565" duration="1799000" />
+      <workItem from="1608005392144" duration="8521000" />
+      <workItem from="1608067281707" duration="14811000" />
+      <workItem from="1608191959456" duration="1288000" />
+      <workItem from="1608208725314" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Added 2 solutions">
       <created>1572538867656</created>
@@ -378,7 +821,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575048758679</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="restructured">
+      <created>1575388340496</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575388340496</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -391,20 +841,19 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added 2 solutions" />
@@ -413,28 +862,147 @@
     <MESSAGE value="restructured" />
     <option name="LAST_COMMIT_MESSAGE" value="restructured" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606870835620">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606870835620" />
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1608195726311">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608195726311" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1608195726311">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608195726311" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1608195726311">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608195726311" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1608195726311">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="181" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608195726311" />
+    <state width="1237" height="265" key="GridCell.Tab.1.bottom" timestamp="1607351726516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607351726516" />
+    <state width="1237" height="265" key="GridCell.Tab.1.center" timestamp="1607351726516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1607351726516" />
+    <state width="1237" height="265" key="GridCell.Tab.1.left" timestamp="1607351726516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1607351726516" />
+    <state width="1237" height="265" key="GridCell.Tab.1.right" timestamp="1607351726516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1607351726516" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1607436211660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607436211660" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1608166705792">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1608166705792" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/interview$moorse_code.coverage" NAME="moorse code Coverage Results" MODIFIED="1575301832277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
-    <SUITE FILE_PATH="coverage/interview$cache_with_rank_and_capacity.coverage" NAME="cache with rank and capacity Coverage Results" MODIFIED="1574970016775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/interview$interval_cover_length.coverage" NAME="interval cover length Coverage Results" MODIFIED="1574995866086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/Python$coffee_machine.coverage" NAME="coffee machine Coverage Results" MODIFIED="1574045745220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
-    <SUITE FILE_PATH="coverage/interview$union_and_intersection_of_sorted_arrays.coverage" NAME="union and intersection of sorted arrays Coverage Results" MODIFIED="1575048707585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/interview$num_of_BSTs.coverage" NAME="num of BSTs Coverage Results" MODIFIED="1574777820672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/interview$Stack_that_can_get_median_in_O_1_.coverage" NAME="Stack that can get median in O(1) Coverage Results" MODIFIED="1575053180249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/interview$Decode_Ways.coverage" NAME="Decode Ways Coverage Results" MODIFIED="1575302236800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/Python$merge_2_sorted_interval_list_with_flags.coverage" NAME="merge 2 sorted interval list with flags Coverage Results" MODIFIED="1574045099953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
-    <SUITE FILE_PATH="coverage/interview$lcaparent.coverage" NAME="lca带parent指针 Coverage Results" MODIFIED="1574963694836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/Python$merge_intervals_with_flag.coverage" NAME="merge_intervals_with_flag Coverage Results" MODIFIED="1574003679983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
-    <SUITE FILE_PATH="coverage/Python$moorse_code.coverage" NAME="moorse code Coverage Results" MODIFIED="1574043928869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
-    <SUITE FILE_PATH="coverage/interview$Determine_if_given_number_is_a_perfect_square.coverage" NAME="Determine if given number is a perfect square Coverage Results" MODIFIED="1575255084744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/Python$oa.coverage" NAME="oa Coverage Results" MODIFIED="1574002723249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stripe/vo" />
-    <SUITE FILE_PATH="coverage/interview$1024_block.coverage" NAME="1024 block Coverage Results" MODIFIED="1575300504287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/interview$.coverage" NAME="找到比自己大一号的字母 Coverage Results" MODIFIED="1575320189229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$all_paths_from_a_to_d.coverage" NAME="all paths from a to d Coverage Results" MODIFIED="1597711719112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$design_sparse_vector.coverage" NAME="design sparse vector Coverage Results" MODIFIED="1597453627406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$rotate_times.coverage" NAME="rotate times Coverage Results" MODIFIED="1603227084744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nuro/Vo" />
     <SUITE FILE_PATH="coverage/Python$merge_timeline.coverage" NAME="merge timeline Coverage Results" MODIFIED="1574044668050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
-    <SUITE FILE_PATH="coverage/Python$2d_Iterator.coverage" NAME="2d Iterator Coverage Results" MODIFIED="1573951413666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Airbnb" />
-    <SUITE FILE_PATH="coverage/interview$All_Palindromic_Subsequence_in_a_given_String.coverage" NAME="All Palindromic Subsequence in a given String Coverage Results" MODIFIED="1575248889210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/interview$generate_binary_tree_using_parent_child_map.coverage" NAME="generate binary tree using parent child map Coverage Results" MODIFIED="1575254765784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
-    <SUITE FILE_PATH="coverage/interview$second_minimum_of_Tournament_tree.coverage" NAME="second minimum of Tournament tree Coverage Results" MODIFIED="1575345262651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$binary_tree_remove_node.coverage" NAME="binary tree remove node Coverage Results" MODIFIED="1598409870676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$top_k_prices.coverage" NAME="top k prices Coverage Results" MODIFIED="1597720449019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/Python$merge_intervals_with_flag.coverage" NAME="merge_intervals_with_flag Coverage Results" MODIFIED="1574003679983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
+    <SUITE FILE_PATH="coverage/interview$All_Palindromic_Subsequence_in_a_given_String.coverage" NAME="All Palindromic Subsequence in a given String Coverage Results" MODIFIED="1607588796659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Sparse_Matrix.coverage" NAME="Sparse Matrix Coverage Results" MODIFIED="1603494123618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nuro/Vo" />
+    <SUITE FILE_PATH="coverage/interview$MergeCompute.coverage" NAME="MergeCompute Coverage Results" MODIFIED="1607391345424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin/Design" />
+    <SUITE FILE_PATH="coverage/interview$subdomain.coverage" NAME="subdomain Coverage Results" MODIFIED="1597432309576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$door.coverage" NAME="door Coverage Results" MODIFIED="1597451184122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$sqrt.coverage" NAME="sqrt Coverage Results" MODIFIED="1607308993079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Number_of_Islands.coverage" NAME="Number of Islands Coverage Results" MODIFIED="1606985906591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Doordash" />
+    <SUITE FILE_PATH="coverage/interview$island.coverage" NAME="island Coverage Results" MODIFIED="1597433566194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$Design_Delay_Queue.coverage" NAME="Design Delay Queue Coverage Results" MODIFIED="1607242566942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin/Design" />
+    <SUITE FILE_PATH="coverage/interview$LCA_for_n_ary_tree.coverage" NAME="LCA for n-ary tree Coverage Results" MODIFIED="1601082873141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon" />
+    <SUITE FILE_PATH="coverage/interview$Stack_that_can_get_median_in_O_1_.coverage" NAME="Stack that can get median in O(1) Coverage Results" MODIFIED="1575053180249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Remove_All_Adjacent_Duplicates_in_String.coverage" NAME="Remove All Adjacent Duplicates in String Coverage Results" MODIFIED="1597876563823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$max_binary_search_subtree.coverage" NAME="max binary search subtree Coverage Results" MODIFIED="1597762259369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$Word_Ladder.coverage" NAME="Word Ladder Coverage Results" MODIFIED="1607653932327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$smallest_common_number_in_n_arrays.coverage" NAME="smallest common number in n arrays Coverage Results" MODIFIED="1597542319983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$join.coverage" NAME="join Coverage Results" MODIFIED="1604100740086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multithread" />
+    <SUITE FILE_PATH="coverage/interview$Reverse_Words_in_a_String.coverage" NAME="Reverse Words in a String Coverage Results" MODIFIED="1607845957228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Count_All_Valid_Pickup_and_Delivery_Options.coverage" NAME="Count All Valid Pickup and Delivery Options Coverage Results" MODIFIED="1605009029129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Doordash" />
+    <SUITE FILE_PATH="coverage/interview$Determine_if_given_number_is_a_perfect_square.coverage" NAME="Determine if given number is a perfect square Coverage Results" MODIFIED="1607770924958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Find_K_Pairs_with_Smallest_Sums.coverage" NAME="Find K Pairs with Smallest Sums Coverage Results" MODIFIED="1607827188707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$LCA.coverage" NAME="LCA Coverage Results" MODIFIED="1607308059516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon" />
+    <SUITE FILE_PATH="coverage/interview$Top_K_Frequent_Elements.coverage" NAME="Top K Frequent Elements Coverage Results" MODIFIED="1601083948594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon" />
+    <SUITE FILE_PATH="coverage/interview$Coin_Change.coverage" NAME="Coin Change Coverage Results" MODIFIED="1607417142932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon" />
+    <SUITE FILE_PATH="coverage/Python$coffee_machine.coverage" NAME="coffee machine Coverage Results" MODIFIED="1574045745220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
+    <SUITE FILE_PATH="coverage/Python$moorse_code.coverage" NAME="moorse code Coverage Results" MODIFIED="1574043928869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
+    <SUITE FILE_PATH="coverage/interview$test_copy__1_.coverage" NAME="test_copy (1) Coverage Results" MODIFIED="1598231021619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$valid_matrix.coverage" NAME="valid matrix Coverage Results" MODIFIED="1597436911824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$Break_Palindrome.coverage" NAME="Break Palindrome Coverage Results" MODIFIED="1607768517324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$generate_binary_tree_using_parent_child_map.coverage" NAME="generate binary tree using parent child map Coverage Results" MODIFIED="1607828583530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Unique_Binary_Search_Trees.coverage" NAME="Unique Binary Search Trees Coverage Results" MODIFIED="1599170508738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nuro" />
+    <SUITE FILE_PATH="coverage/interview$database.coverage" NAME="database Coverage Results" MODIFIED="1605061568414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Doordash" />
+    <SUITE FILE_PATH="coverage/interview$BattleShip.coverage" NAME="BattleShip Coverage Results" MODIFIED="1599666807342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Akuna" />
+    <SUITE FILE_PATH="coverage/interview$second_minimum_of_Tournament_tree.coverage" NAME="second minimum of Tournament tree Coverage Results" MODIFIED="1607846691451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$rate_limiter.coverage" NAME="rate limiter Coverage Results" MODIFIED="1607349115345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon" />
+    <SUITE FILE_PATH="coverage/interview$lcaparent.coverage" NAME="lca带parent指针 Coverage Results" MODIFIED="1574963694836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$Remove_Comments.coverage" NAME="Remove Comments Coverage Results" MODIFIED="1598983049418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/databricks" />
+    <SUITE FILE_PATH="coverage/interview$shortest_path.coverage" NAME="shortest path Coverage Results" MODIFIED="1599827970843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Akuna" />
+    <SUITE FILE_PATH="coverage/interview$Find_target_word.coverage" NAME="Find target word Coverage Results" MODIFIED="1600998845150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon" />
+    <SUITE FILE_PATH="coverage/interview$LRU_cache.coverage" NAME="LRU cache Coverage Results" MODIFIED="1597794221337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$Find_distance_between_two_nodes_of_a_Binary_Tree.coverage" NAME="Find distance between two nodes of a Binary Tree Coverage Results" MODIFIED="1607826468576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/Python$oa.coverage" NAME="oa Coverage Results" MODIFIED="1574002723249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stripe/vo" />
+    <SUITE FILE_PATH="coverage/interview$combination.coverage" NAME="combination Coverage Results" MODIFIED="1597631085994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$StreamOnMemory.coverage" NAME="StreamOnMemory Coverage Results" MODIFIED="1607650210427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin/Design" />
+    <SUITE FILE_PATH="coverage/interview$Heap.coverage" NAME="Heap Coverage Results" MODIFIED="1585873943700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$findFirstUniqueChar.coverage" NAME="findFirstUniqueChar Coverage Results" MODIFIED="1597773413555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$amount_of_3_pairs.coverage" NAME="amount of 3 pairs Coverage Results" MODIFIED="1599577341647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$Combination_Sum.coverage" NAME="Combination Sum Coverage Results" MODIFIED="1608017524602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/interview$replace_string.coverage" NAME="replace string Coverage Results" MODIFIED="1574964987623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$ancestor.coverage" NAME="ancestor Coverage Results" MODIFIED="1597448398015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$cache_with_rank_and_capacity.coverage" NAME="cache with rank and capacity Coverage Results" MODIFIED="1574970016775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$copy.coverage" NAME="copy Coverage Results" MODIFIED="1598230822613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$Add_Strings.coverage" NAME="Add Strings Coverage Results" MODIFIED="1599143379474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nuro" />
+    <SUITE FILE_PATH="coverage/interview$test.coverage" NAME="test Coverage Results" MODIFIED="1608193317994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$interval_cover_length.coverage" NAME="interval cover length Coverage Results" MODIFIED="1574995866086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$num_of_BSTs.coverage" NAME="num of BSTs Coverage Results" MODIFIED="1574777820672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$union_and_intersection_of_sorted_arrays.coverage" NAME="union and intersection of sorted arrays Coverage Results" MODIFIED="1575048707585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$cluster_3D_points.coverage" NAME="cluster 3D points Coverage Results" MODIFIED="1603247167898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nuro/Vo" />
+    <SUITE FILE_PATH="coverage/interview$1st_2nd_3rd.coverage" NAME="1st 2nd 3rd联系人 Coverage Results" MODIFIED="1607760872689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin/Design" />
+    <SUITE FILE_PATH="coverage/interview$min_max_in_2D_array.coverage" NAME="min max in 2D array Coverage Results" MODIFIED="1607652660976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$circular_array.coverage" NAME="circular array Coverage Results" MODIFIED="1575423382834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$diagonalsSort.coverage" NAME="diagonalsSort Coverage Results" MODIFIED="1596649857102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quora/OA" />
+    <SUITE FILE_PATH="coverage/interview$Tree_Traversal.coverage" NAME="Tree Traversal Coverage Results" MODIFIED="1598624868312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/databricks" />
+    <SUITE FILE_PATH="coverage/interview$parse_yaml.coverage" NAME="parse yaml Coverage Results" MODIFIED="1603396643426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nuro/Vo" />
+    <SUITE FILE_PATH="coverage/interview$window.coverage" NAME="window Coverage Results" MODIFIED="1596650210799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quora/OA" />
+    <SUITE FILE_PATH="coverage/interview$employee.coverage" NAME="employee Coverage Results" MODIFIED="1597091199911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$sliding_window_maximum.coverage" NAME="sliding window maximum Coverage Results" MODIFIED="1607310380007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Doordash" />
+    <SUITE FILE_PATH="coverage/interview$.coverage" NAME="链表交点 Coverage Results" MODIFIED="1607849781716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$1_python_comparator.coverage" NAME="1 python comparator Coverage Results" MODIFIED="1601410951911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon" />
+    <SUITE FILE_PATH="coverage/interview$Count_Different_Palindromic_Subsequences.coverage" NAME="Count Different Palindromic Subsequences Coverage Results" MODIFIED="1607589489853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$moorse_code.coverage" NAME="moorse code Coverage Results" MODIFIED="1575301832277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
+    <SUITE FILE_PATH="coverage/interview$coolFeature.coverage" NAME="coolFeature Coverage Results" MODIFIED="1596649774827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quora/OA" />
+    <SUITE FILE_PATH="coverage/interview$reflow_string.coverage" NAME="reflow string Coverage Results" MODIFIED="1597435132982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$1024_block.coverage" NAME="1024 block Coverage Results" MODIFIED="1607767306779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$sliding_window_mode.coverage" NAME="sliding window mode Coverage Results" MODIFIED="1603507370366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nuro/Vo" />
+    <SUITE FILE_PATH="coverage/interview$Max_Area_of_Island.coverage" NAME="Max Area of Island Coverage Results" MODIFIED="1605320963974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Doordash" />
+    <SUITE FILE_PATH="coverage/Python$2d_Iterator.coverage" NAME="2d Iterator Coverage Results" MODIFIED="1573951413666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Airbnb" />
+    <SUITE FILE_PATH="coverage/interview$stock_records.coverage" NAME="stock records Coverage Results" MODIFIED="1598300814128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$Decode_Ways.coverage" NAME="Decode Ways Coverage Results" MODIFIED="1607769586242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
+    <SUITE FILE_PATH="coverage/interview$courses.coverage" NAME="courses Coverage Results" MODIFIED="1597504220359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/interview$Design_Sorted_Singly_Linked_List.coverage" NAME="Design Sorted Singly Linked List Coverage Results" MODIFIED="1597792710044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$affirm.coverage" NAME="affirm Coverage Results" MODIFIED="1600215757496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$Candy_Crush.coverage" NAME="Candy Crush Coverage Results" MODIFIED="1597780254391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$Valid_Triangle_Number.coverage" NAME="Valid Triangle Number Coverage Results" MODIFIED="1607414393395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloomberg" />
+    <SUITE FILE_PATH="coverage/interview$Get_avg_for_a_period_stock.coverage" NAME="Get avg for a period stock Coverage Results" MODIFIED="1608035651685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin/Design" />
+    <SUITE FILE_PATH="coverage/interview$getMod.coverage" NAME="getMod Coverage Results" MODIFIED="1599510579814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$extractCertainNodesFromTree.coverage" NAME="extractCertainNodesFromTree Coverage Results" MODIFIED="1601091547770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$findWork.coverage" NAME="findWork Coverage Results" MODIFIED="1597091461599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intuit" />
+    <SUITE FILE_PATH="coverage/Python$merge_2_sorted_interval_list_with_flags.coverage" NAME="merge 2 sorted interval list with flags Coverage Results" MODIFIED="1574045099953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oscar" />
   </component>
 </project>

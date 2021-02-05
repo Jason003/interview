@@ -1,6 +1,27 @@
 '''
 The idea is to use Doubly Linked List (DLL). We can delete middle element in O(1) time by maintaining mid pointer. We can move mid pointer in both directions using previous and next pointers.
 '''
+import heapq
+class MedianFinder:
+
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.lo = []
+        self.hi = []
+        self.n = 0
+
+    def addNum(self, num: int) -> None:
+        self.n += 1
+        heapq.heappush(self.lo, -num)
+        heapq.heappush(self.hi, -heapq.heappop(self.lo))
+        if len(self.lo) < len(self.hi):
+            heapq.heappush(self.lo, -heapq.heappop(self.hi))
+
+    def findMedian(self) -> float:
+        return -self.lo[0] if self.n & 1 else (self.hi[0] - self.lo[0]) / 2
+
 class Node:
     def __init__(self, val):
         self.pre = None
@@ -41,6 +62,8 @@ class Stack:
         if self.count == 0:
             raise Exception('Empty Stack!')
         return self.mid.val
+
+
 
 s = Stack()
 s.push(1)

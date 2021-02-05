@@ -1,6 +1,6 @@
 import collections
 import heapq
-import copy
+import test_copy
 
 class Solution:
     def findCheapestPrice_bellman(self, n, flights, src, dst, K):
@@ -35,7 +35,7 @@ class Solution:
         dp[src] = 0
         prev = {}
         for k in range(1, K + 2):
-            tep = copy.deepcopy(dp)
+            tep = test_copy.deepcopy(dp)
             for u, v, w in flights:
                 if dp[u] != float('inf') and dp[u] + w < tep[v]:
                     tep[v] = dp[u] + w

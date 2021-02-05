@@ -13,8 +13,8 @@ class MyHashMap:
         """
         Initialize your data structure here.
         """
-        self.m = 1000
-        self.h = [None] * self.m
+        self.size = 1000
+        self.bucket = [None] * self.size
 
     def put(self, key, value):
         """
@@ -25,11 +25,11 @@ class MyHashMap:
         """
         if key == None:
             raise Exception
-        index = hash(key) % self.m
-        if self.h[index] == None:
-            self.h[index] = ListNode(key, value)
+        index = hash(key) % self.size
+        if self.bucket[index] == None:
+            self.bucket[index] = ListNode(key, value)
         else:
-            cur = self.h[index]
+            cur = self.bucket[index]
             while True:
                 if cur.pair[0] == key:
                     cur.pair = (key, value)  # update
@@ -44,8 +44,8 @@ class MyHashMap:
         :type key: int
         :rtype: int
         """
-        index = hash(key) % self.m
-        cur = self.h[index]
+        index = hash(key) % self.size
+        cur = self.bucket[index]
         while cur:
             if cur.pair[0] == key:
                 return cur.pair[1]
@@ -59,11 +59,11 @@ class MyHashMap:
         :type key: int
         :rtype: void
         """
-        index = hash(key) % self.m
-        cur = prev = self.h[index]
+        index = hash(key) % self.size
+        cur = prev = self.bucket[index]
         if not cur: return
         if cur.pair[0] == key:
-            self.h[index] = cur.next
+            self.bucket[index] = cur.next
         else:
             cur = cur.next
             while cur:

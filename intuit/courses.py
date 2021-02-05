@@ -1,4 +1,32 @@
 import collections
+student_course_pairs_1 = [
+  ["58", "Software Design"],
+  ["58", "Linear Algebra"],
+  ["94", "Art History"],
+  ["94", "Operating Systems"],
+  ["17", "Software Design"],
+  ["58", "Mechanics"],
+  ["58", "Economics"],
+  ["17", "Linear Algebra"],
+  ["17", "Political Science"],
+  ["94", "Economics"],
+  ["25", "Economics"],
+]
+def courseOverlaps(studentCoursePairs):
+    if not studentCoursePairs: return
+    student_courses = collections.defaultdict(set)
+    for student, course in studentCoursePairs:
+        student_courses[student].add(course)
+    seen = set()
+    for s1 in student_courses.keys():
+        for s2 in student_courses.keys():
+            if s1 != s2 and (s1, s2) not in seen and (s2, s1) not in seen:
+                seen.add((s1, s2))
+                print('[{}, {}]: {}'.format(s1, s2, list(student_courses[s1] & student_courses[s2])))
+
+courseOverlaps(student_course_pairs_1)
+
+
 def courseSchedule1(courseRelation):
     allCourses = set()
     pre = collections.defaultdict(set)
@@ -58,7 +86,25 @@ def courseHelper(coursesRelation):
 
     return res
 
-print(courseHelper([('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'E'), ('Z', 'Y'), ('Z', 'X'), ('Z', 'G')]))
-print(courseHelper([('A', 'B'), ('B', 'A')]))
+all_courses = [
+    ["Logic","COBOL"],
+    ["Data Structures","Algorithms"],
+    ["Creative Writing","Data Structures"],
+    ["Algorithms","COBOL"],
+    ["Intro to Computer Science","Data Structures"],
+    ["Logic","Compilers"],
+    ["Data Structures","Logic"],
+    ["Creative Writing","System Administration"],
+    ["Databases","System Administration"],
+    ["Creative Writing","Databases"]
+]
+all_courses2 = []
+for c in all_courses:
+    all_courses2.append(c[::-1])
+for x in courseHelper(all_courses2):
+    print(len(x))
+
+print({x[len(x) // 2] for x in courseHelper(all_courses2)})
+
 
 

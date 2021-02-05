@@ -15,5 +15,5 @@ def is_square(n):
     return False
 
 
-for i in range(10000):
+for i in range(1000000):
     assert is_square(i) == (int((int(i ** 0.5)) ** 2) == i)

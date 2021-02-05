@@ -14,12 +14,12 @@ def getFriendList(person, friendship): # time: O(E + V) space: O(E + V)
 # getFriendList([[1,'A','Google'], [2,'B','Google'], [3,'C','Facebook'], [4,'D','Intuit']], [[1,2], [1,3], [1,4]])
 
 def q2(person, friendship):
-    id_info = {}
+    id_company = {}
     for id, name, company in person:
-        id_info[id] = company
+        id_company[id] = company
     friendList = collections.defaultdict(set)
     for a, b in friendship:
-        if id_info[b] != id_info[a]:
+        if id_company[b] != id_company[a]:
             friendList[a].add(b)
             friendList[b].add(a)
     company_person = collections.defaultdict(set)
